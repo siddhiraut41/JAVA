@@ -1,0 +1,18 @@
+// Command line Arguments and display the addition of them
+public class Four{
+    public static void main(String args[]){
+        int l = args.length;
+         System.out.println("The length of the arguments is : "+l);
+
+         for(int i=0;i<l;i++)
+          System.out.println("The arguments are: "+args[i]);
+
+          int sum= 0; 
+          l = sum;
+          for(int j=0; j<args.length; j++){
+               sum= sum+ Integer.parseInt(args[j]);
+          }  
+
+          System.out.println("The addition of the arguments are : "+sum);        
+    }
+}
